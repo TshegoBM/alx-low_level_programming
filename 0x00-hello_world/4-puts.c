@@ -1,9 +1,10 @@
 #include <stdio.h>
-
-/*
- * Main is the entry point of a function.
- * If function returns zero, it means success.
+/**
+ * main - Entry point
+ *
+ * Return: 0 (success)
  */
+
 int main(void)
 
 {
