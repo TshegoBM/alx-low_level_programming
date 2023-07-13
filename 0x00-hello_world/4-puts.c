@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-/**
- * This program demonstrates the use of the puts function to print a message to the console.
+/*
+ * Main is the entry point of a function.
+ * If function returns zero, it means success.
  */
 int main(void)
 
