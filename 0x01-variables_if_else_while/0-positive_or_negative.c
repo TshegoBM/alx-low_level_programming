@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: This program will assign a random number to the variable n each time it is executed
+ * Description: Assigns a random number to variable n on each execution
  * Return: 0 (success)
 */
 
@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
