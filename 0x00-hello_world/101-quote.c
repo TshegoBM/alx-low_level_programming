@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: Print to the standard error
@@ -6,7 +7,7 @@
  */
 int main(void)
 {
-	const char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(STDERR_FILENO, message, sizeof(message) - 1);
-	return 0;
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+
+	return (1);
 }
