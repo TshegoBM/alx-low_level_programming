@@ -2,18 +2,15 @@
 /**
  * _abs - computes the absolute value of an integer
  */
-int _abs(int)
+int _abs(int a)
 {
-	int a;
-
 	if (a < 0)
-	{
-		_putchar('-');
-		return (-a);
-	}
+	
+	a = -a;
+	
 	else
-	{
-		_putchar('a');
-	}
-	return (0);
+
+	_putchar(a);
+	
+	return (a);
 }
