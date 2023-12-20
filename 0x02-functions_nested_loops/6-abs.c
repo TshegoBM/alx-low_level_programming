@@ -10,6 +10,8 @@ int _abs(int a)
 
 	a = -a;
 
+	if (a == 0)
+	
 	else
 
 	_putchar(a);
