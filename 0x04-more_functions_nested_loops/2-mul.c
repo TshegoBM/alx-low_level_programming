@@ -5,7 +5,7 @@
  * @b: Integer to be multiplied.
  * Return: result (a*b)
  */
- int mul(int a, int b)
+int mul(int a, int b)
 {
 	int result = a * b;
 
