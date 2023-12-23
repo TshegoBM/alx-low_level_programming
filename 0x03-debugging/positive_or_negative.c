@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: Assigns a random number to variable n on each execution
- * Return: 0 (success)
+ * @i: integer to be tested
 */
 
 void positive_or_negative(int i)
