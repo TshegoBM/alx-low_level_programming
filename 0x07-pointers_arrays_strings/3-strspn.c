@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strspn - Gets the length of a prefix substring.
- * @s: 
- * @accept:
+ * @s: String to be searched.
+ * @accept: Set ot characters to search for.
  * Return: Number of bytes in the initial segment of s,
  *		which consist only of bytes from accept.
  */
